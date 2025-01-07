@@ -1,5 +1,5 @@
+import 'package:aprendendo_alura_tarefas/screens/form_screen.dart';
 import 'package:flutter/material.dart';
-
 import 'screens/initial_screen.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home:InitialScreen(),
+      home:FormScreen(),
     );
   }
 }
